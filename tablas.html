@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        col{
+            background-color:steelblue;
+        }
+
+    </style>
+</head>
+<body>
+<h1>TABLAS</h1>
+<table>
+    <caption>Horario de Clase</caption><!--titulo de la tabla--->
+    <colgroup>
+        <col>
+        <col> <!--para señalar columnas-->
+        
+    </colgroup>
+    <thead><!--encabezado de tabla--->
+        <tr>
+            <th></th>
+            <th>L</th>
+            <th>M</th>
+            <th>M</th>
+            <th>J</th>
+            <th>V</th>
+        </tr>
+    </thead>
+    <TBody><!--es necesario para representar resto de contenido--->
+  <tr>
+    <td> 1:30 _ 9:30 </td>
+    <td rowspan="2"> Matematicas </td><!---rowspan doble fila--->
+    <td> Matematicas </td>
+    <td> Sociales </td>
+    <td> Matematicas </td>
+    <td> Matematicas </td>
+  </tr>
+  <tr>
+    <td> 2:30 _ 9:30 </td>
+    
+    <td> Matematicas </td>
+    <td> Sociales </td>
+    <td> Matematicas </td>
+    <td> Matematicas </td>
+  </tr> <tr>
+    <td> 3:30 _ 9:30 </td>
+    <td> Matematicas </td>
+    <td> Matematicas </td>
+    <td> Sociales </td>
+    <td> Matematicas </td>
+    <td> Matematicas </td>
+  </tr> <tr>
+
+    <td> 4:30 _ 9:30 </td>
+    <td colspan="5"> RECREO </td> <!--colspan  para que recreo ocupe la casilla de toda la semana--->
+    
+  </tr> <tr>
+    <td> 5:30 _ 9:30 </td>
+    <td> Matematicas </td>
+    <td> Matematicas </td>
+    <td> Sociales </td>
+    <td> Matematicas </td>
+    <td> Matematicas </td>
+  </tr> <tr>
+    <td> 6:30 _ 9:30 </td>
+    <td> Matematicas </td>
+    <td> Matematicas </td>
+    <td> Sociales </td>
+    <td> Matematicas </td>
+    <td> Matematicas </td>
+  </tr>
+  <tr>
+    <td> 7:30 _ 9:30 </td>
+    <td> Matematicas </td>
+    <td> Matematicas </td>
+    <td> Sociales </td>
+    <td> Matematicas </td>
+    <td> Matematicas </td>
+  </tr>
+</TBody>
+<tfoot><!---es un pi de pagina-->
+     <tr>
+        <td colspan="5">Total de Clases</td>
+        <td >12</td>
+     </tr> 
+</tfoot>
+</table>    
+    
+</body>
+</html>
